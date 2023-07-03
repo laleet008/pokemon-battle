@@ -39,3 +39,28 @@ body {
 .animate-bounce {
   animation: bounce 1s infinite;
 }
+
+.nav-item {
+  width: 110px;
+  display: flex;
+  justify-content: center;
+  color: #b3b3b3;
+  height: 30px;
+}
+
+.active {
+  text-align: center;
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.active::before {
+  content: '';
+  background: url('/assets/Pokeball.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  height: 30px;
+  width: 40px;
+}

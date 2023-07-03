@@ -1,6 +1,6 @@
+'use client';
 import Image from 'next/image';
 import heroImage from '../public/assets/hero.svg';
-
 export default function Home() {
   return (
     <section className="py-8 grid grid-cols-2 justify-between items-center w-full mt-12">
@@ -28,7 +28,6 @@ export default function Home() {
           height={300}
           width={500}
           style={{ animation: 'bounce 1s infinite' }}
-          className=" "
         />
       </div>
     </section>
