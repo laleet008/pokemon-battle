@@ -2,8 +2,8 @@
 
 import React from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
-import { usePathname, useRouter } from 'next/navigation';
+
+import { usePathname } from 'next/navigation';
 
 import mainLogo from '../public/assets/Pokemon-Logo.svg';
 
