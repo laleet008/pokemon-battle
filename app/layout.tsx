@@ -1,4 +1,5 @@
 import Navbar from '@/components/Navbar';
+import Providers from '../utils/Provider';
 import './globals.css';
 
 export const metadata = {
@@ -15,10 +16,10 @@ export default function RootLayout({
     <html lang="en">
       <body className="w-full">
         <main className="max-w-7xl main-wrapper my-8 mx-auto">
-          <div>
+          <Providers>
             <Navbar />
             <div>{children}</div>
-          </div>
+          </Providers>
         </main>
       </body>
     </html>
